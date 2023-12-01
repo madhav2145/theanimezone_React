@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../assets/theanimezonelogo.png';
 function Footer() {
   return (
-    <footer className='border-t-2 border-red-600 h-[8.5rem] bg-gradient-to-t from-red-700 via-slate-800 to-gray-900 relative '>
+    <footer className='border-t-2 border-red-600 h-[8.5rem] bg-gradient-to-t from-red-700 via-slate-700 to-gray-900 relative'>
       <div className=' w-[25%] absolute bottom-6 left-20 text-4xl' >
         <img src={logo} className='h-[6rem]'/>
       </div>
