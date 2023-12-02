@@ -1,13 +1,12 @@
 // App.js
 import React from 'react';
-
 import AboutUs from './Components/AboutUs';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Login from './Components/Login';
-import Signup from './Components/Signup';
+import Login from './Components/login';
+import Signup from './Components/signup';
 import Search from './Components/Search';
 import Comments from './Components/Comments';
 import Content from './Components/Content';

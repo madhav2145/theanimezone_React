@@ -106,7 +106,7 @@ const Search = () => {
                 <div className=''>   
                     {mediaData && (            
                         <div className=''>
-                            <img src={mediaData.coverImage.large} alt={mediaData.title.romaji} className='h-[20rem] w-[15rem] rounded-md' />
+                            <img src={mediaData.coverImage.large} alt={mediaData.title.romaji} className='h-[20rem] w-[15rem] rounded-md self-center' />
                             <h1 className='font-semibold text-xl'>{mediaData.title.romaji}</h1>
                             <p dangerouslySetInnerHTML={{ __html: DOMpurify.sanitize(mediaData.description) }}></p>
                             <p>Start Date: {mediaData.startDate.year}/{mediaData.startDate.month}/{mediaData.startDate.day}</p>
