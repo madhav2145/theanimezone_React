@@ -118,7 +118,6 @@ const Search = () => {
                             <p>Status: {mediaData.status}</p>
                             <p>Duration: {mediaData.duration}</p>
                             <p>Genres: {mediaData.genres.join(', ')}</p>
-                            <p>Is Adult: {mediaData.isAdult ? 'Yes' : 'No'}</p>
                             <p>Average Score: {mediaData.averageScore}</p>
                             <p>Popularity: {mediaData.popularity}</p>
                         </div>  
