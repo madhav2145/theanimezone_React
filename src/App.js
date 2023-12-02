@@ -1,20 +1,26 @@
+// App.js
 import React from 'react';
-import AboutUs from './Components/AboutUs'; 
+
+import AboutUs from './Components/AboutUs';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Login from './Components/login';
-import Signup from './Components/signup';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
 import Search from './Components/Search';
+import Comments from './Components/Comments';
 import Content from './Components/Content';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import { Provider } from 'react-redux';
+import store from './store';
 
 function App() {
 
 
   return (
+    <Provider store={store}>
     <div className='App'>
       <>
       <Navbar />
@@ -32,6 +38,7 @@ function App() {
         <Footer />
       </>
     </div>
+    </Provider>
   );
  }
 
