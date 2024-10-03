@@ -2,9 +2,9 @@
 
 **The AnimeZone** is a responsive web application built with React, designed for anime enthusiasts to explore and discover their favorite anime and manga. This project leverages modern web technologies to provide an engaging user experience.
 
-<img src="public/Screenshot 2024-10-02 014633.png">
-<img src="public/Screenshot 2024-10-02 014657.png">
-<img src="public/Screenshot 2024-10-02 020120.png">
+<img src="public/WhatsApp Image 2024-10-02 at 14.24.11_49cb2c96.jpg">
+<img src="public/WhatsApp Image 2024-10-02 at 14.23.58_7847508b.jpg">
+<img src="public/WhatsApp Image 2024-10-02 at 14.23.45_18180243.jpg">
 
 ## Features
 
